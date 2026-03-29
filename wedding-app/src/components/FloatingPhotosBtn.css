@@ -1,0 +1,21 @@
+.floating-photos {
+  position: fixed;
+  bottom: 2rem;
+  right: 1.5rem;
+  z-index: 998;
+  background: var(--gold);
+  color: var(--maroon-dark);
+  border-radius: 50px;
+  padding: 0.7rem 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.95rem;
+  box-shadow: 0 4px 20px rgba(201,168,76,0.5);
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+.floating-photos:hover { transform: scale(1.08); box-shadow: 0 8px 30px rgba(201,168,76,0.6); }
+.floating-label { display: inline; }
+@media (max-width: 480px) { .floating-label { display: none; } }

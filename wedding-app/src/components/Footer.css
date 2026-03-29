@@ -1,0 +1,55 @@
+.footer {
+  background: var(--maroon-dark);
+  padding: clamp(3rem, 8vw, 5rem) clamp(1rem, 6vw, 4rem) 2rem;
+  text-align: center;
+  color: rgba(255,255,255,0.8);
+}
+.footer-inner { max-width: 700px; margin: 0 auto; }
+.footer-names {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-style: italic;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 0.6rem;
+}
+.footer-amp { font-size: 2rem; }
+.footer-date {
+  font-family: var(--font-hindi);
+  font-size: 0.95rem;
+  color: var(--gold);
+  margin-bottom: 1.5rem;
+}
+.footer-divider {
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--gold), transparent);
+  margin: 1.5rem 0;
+}
+.host-name {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 0.3rem;
+}
+.host-addr, .host-mob {
+  font-size: 0.88rem;
+  color: rgba(255,255,255,0.6);
+  margin-bottom: 0.3rem;
+}
+.footer-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+.footer-copyright {
+  margin-top: 2rem;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.35);
+}

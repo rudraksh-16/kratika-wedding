@@ -1,0 +1,76 @@
+.about-section {
+  background: var(--cream);
+  padding: var(--section-pad);
+  text-align: center;
+}
+.couple-grid {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 2rem;
+  margin-top: 2.5rem;
+  align-items: start;
+}
+.person-card {
+  background: var(--blush);
+  border: 1px solid rgba(123,28,46,0.2);
+  border-radius: var(--card-radius);
+  padding: 2rem 1.5rem;
+  box-shadow: 0 4px 20px rgba(123,28,46,0.08);
+  text-align: center;
+}
+.person-icon { font-size: 2.5rem; margin-bottom: 0.8rem; }
+.person-hindi {
+  font-family: var(--font-hindi);
+  font-size: clamp(1.2rem, 3vw, 1.6rem);
+  color: var(--maroon);
+  margin-bottom: 0.3rem;
+}
+.person-name-en {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-style: italic;
+  color: var(--gold);
+  margin-bottom: 1rem;
+}
+.person-divider {
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--gold), transparent);
+  margin: 0.8rem 0;
+}
+.person-parents, .person-grandparents, .person-from {
+  font-size: 0.9rem;
+  color: var(--text-mid);
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+.label { font-weight: 600; color: var(--maroon); }
+
+.center-motif {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 1rem 0;
+}
+.motif-text { font-size: 2.5rem; }
+.motif-sub {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 0.9rem;
+  color: var(--maroon);
+}
+.motif-date {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  color: var(--gold);
+  letter-spacing: 0.05em;
+}
+
+@media (max-width: 768px) {
+  .couple-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .center-motif { flex-direction: row; justify-content: center; gap: 1rem; }
+}

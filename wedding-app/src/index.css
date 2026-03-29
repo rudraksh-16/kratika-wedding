@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&display=swap');
+
+/* ─── Design Tokens ─── */
+:root {
+  --maroon:     #7B1C2E;
+  --maroon-dark:#2A0A12;
+  --gold:       #C9A84C;
+  --gold-light: #e8c97a;
+  --cream:      #FAF3E8;
+  --blush:      #F2D7D5;
+  --text-dark:  #1a0608;
+  --text-mid:   #5a2533;
+
+  --font-hindi:   'Tiro Devanagari Hindi', Georgia, serif;
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body:    'Cormorant Garamond', Georgia, serif;
+
+  --section-pad: clamp(3rem, 8vw, 6rem) clamp(1rem, 6vw, 4rem);
+  --card-radius: 12px;
+  --transition:  0.35s ease;
+}
+
+/* ─── Reset ─── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; font-size: 16px; }
+body {
+  background: var(--cream);
+  color: var(--text-dark);
+  font-family: var(--font-body);
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+img { max-width: 100%; display: block; }
+a { text-decoration: none; color: inherit; }
+button { cursor: pointer; font-family: inherit; border: none; outline: none; }
+
+/* ─── Scroll Reveal ─── */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; transition: none; }
+}
+
+/* ─── Gold Divider ─── */
+.gold-divider {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin: 1.5rem auto;
+  max-width: 320px;
+}
+.gold-divider::before,
+.gold-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--gold);
+}
+.gold-divider .lotus {
+  color: var(--gold);
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+/* ─── Section Label ─── */
+.section-eyebrow {
+  font-family: var(--font-hindi);
+  font-size: clamp(0.75rem, 2vw, 0.9rem);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold);
+  display: block;
+  margin-bottom: 0.4rem;
+}
+.section-title {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+  color: var(--maroon);
+  line-height: 1.2;
+}
+.section-title.light { color: var(--gold-light); }
+
+/* ─── Buttons ─── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.85rem 2rem;
+  border-radius: 50px;
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+.btn:hover { transform: scale(1.04); box-shadow: 0 8px 24px rgba(0,0,0,0.25); }
+.btn-maroon {
+  background: var(--maroon);
+  color: var(--gold-light);
+  border: 2px solid var(--gold);
+}
+.btn-gold {
+  background: var(--gold);
+  color: var(--maroon-dark);
+  border: 2px solid transparent;
+}
+
+/* ─── Scrollbar ─── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--cream); }
+::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 4px; }
