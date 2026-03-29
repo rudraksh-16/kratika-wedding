@@ -16,9 +16,9 @@ export default function FamilySection() {
           {/* Bride's Side */}
           <div className="family-card">
             <h3 className="family-role">Bride's Family</h3>
-            <p className="family-role-en">Uttarakankshi</p>
+            <p className="family-role-en"></p>
             <div className="family-divider" />
-            <p className="family-main">Shri Shivnarayan, Rajnarayan, Riddhishankar Sharma</p>
+            <p className="family-main">Shri Shivnarayan, Rajnarayan, Ridhi Shankar Sharma</p>
             <p className="family-addr">67/78, RHB, Pratap Nagar, Sanganer, Jaipur (Raj.) – 302033</p>
             <p className="family-mob">📞 9414709224 &nbsp;|&nbsp; 9414666981</p>
 
@@ -32,7 +32,7 @@ export default function FamilySection() {
           {/* Groom's Side */}
           <div className="family-card">
             <h3 className="family-role">Groom's Family</h3>
-            <p className="family-role-en">Darshanabhilashi</p>
+            <p className="family-role-en"></p>
             <div className="family-divider" />
             <p className="family-main">Shri Dwarkprasad, Omprakash</p>
             <p className="family-secondary">Vijay Kumar, Lakshminarayan, Naresh Kumar, Pawan Kumar</p>
@@ -42,7 +42,7 @@ export default function FamilySection() {
 
         {/* Swagatkarta */}
         <div className="swagat-box reveal">
-          <h4 className="swagat-title">Hosts</h4>
+          <h4 className="swagat-title">Brothers</h4>
           <p className="swagat-names">Vaibhav &nbsp;✦&nbsp; Vishal &nbsp;✦&nbsp; Tanmay &nbsp;✦&nbsp; Rudraksha</p>
         </div>
 
