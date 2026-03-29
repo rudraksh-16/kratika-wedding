@@ -18,7 +18,7 @@ export default function Footer() {
         <div className="footer-host">
           <p className="host-name">Shri Shivnarayan, Rajnarayan, Riddhishankar Sharma</p>
           <p className="host-addr">67/78, RHB, Pratap Nagar, Sanganer, Jaipur – 302033</p>
-          <p className="host-mob">📞 +91-9414709224 &nbsp;|&nbsp; +91-9414666981</p>
+          <p className="host-mob">📞 +91-9414709224 &nbsp;|&nbsp; +91-9414666981|&nbsp; +91-8112266382</p>
         </div>
 
         <div className="footer-copyright">

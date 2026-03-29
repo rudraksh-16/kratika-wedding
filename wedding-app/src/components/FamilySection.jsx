@@ -20,7 +20,7 @@ export default function FamilySection() {
             <div className="family-divider" />
             <p className="family-main">Shri Shivnarayan, Rajnarayan, Ridhi Shankar Sharma</p>
             <p className="family-addr">67/78, RHB, Pratap Nagar, Sanganer, Jaipur (Raj.) – 302033</p>
-            <p className="family-mob">📞 9414709224 &nbsp;|&nbsp; 9414666981</p>
+            <p className="family-mob">📞 9414709224 &nbsp;|&nbsp; 9414666981|&nbsp; +91-8112266382</p>
 
             <div className="sub-group">
               <h4 className="sub-title">Maternal Side (Nanihal Paksha)</h4>
@@ -43,7 +43,7 @@ export default function FamilySection() {
         {/* Swagatkarta */}
         <div className="swagat-box reveal">
           <h4 className="swagat-title">Brothers</h4>
-          <p className="swagat-names">Vaibhav &nbsp;✦&nbsp; Vishal &nbsp;✦&nbsp; Tanmay &nbsp;✦&nbsp; Rudraksha</p>
+          <p className="swagat-names">Vaibhav &nbsp;✦&nbsp; Vishal &nbsp;✦&nbsp; Tanmay &nbsp;✦&nbsp; Rudraksh</p>
         </div>
 
         {/* Baal Manuhar */}
