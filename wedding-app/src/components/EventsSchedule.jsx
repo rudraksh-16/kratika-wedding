@@ -15,7 +15,7 @@ const events = [
     theme: '🌸 Celebrate in lovely shades of pink!', themeHi: 'गुलाबी रंग के प्यारे शेड्स में जश्न मनाएं' },
   { id: 6, name: 'Barat Swagat',         day: 'Saturday', date: '25 Apr 2026', time: '7:30 PM',
     theme: '✨ Glamorous attire — your own theme!', themeHi: 'ग्लैमरस पोशाक - अपनी पसंद की थीम' },
-  { id: 7, name: 'Preetibhoj',           day: 'Saturday', date: '25 Apr 2026', time: '8:00 PM onwards',
+  { id: 7, name: 'Dinner',           day: 'Saturday', date: '25 Apr 2026', time: '8:00 PM onwards',
     theme: '✨ Glamorous attire — reception style!', themeHi: 'ग्लैमरस पोशाक - अपनी पसंद की थीम' },
   { id: 8, name: 'Panigrahana Sanskar',   day: 'Saturday', date: '25 Apr 2026', time: 'Auspicious Muhurta',
     theme: '🔥 Ladies — wear a beautiful Chunri!', themeHi: 'महिलाएं खूबसूरत चुनरी पहनें' },
