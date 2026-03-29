@@ -18,16 +18,16 @@ export default function AboutCouple() {
           {/* Bride */}
           <div className="person-card">
             <div className="person-icon bride-icon">🌸</div>
-            <h3 className="person-hindi">हृदयकणिका कृतिका</h3>
+            <h3 className="person-hindi">Kritika Sharma</h3>
             <p className="person-name-en">Kritika Sharma</p>
             <div className="person-divider" />
             <p className="person-parents">
               <span className="label">Parents: </span>
-              Smt. Kalpana Vyas &amp; Dr. Riddhishankar Sharma
+              Dr. Kalpana Vyas &amp; Dr. Ridhi Shankar Sharma
             </p>
             <p className="person-grandparents">
               <span className="label">Late Grandparents: </span>
-              Smritidhesh Smt. Shantidevi &amp; Shri Gobind Narayan Sharma
+              Smritidhesh Smt. Shantidevi &amp; Shri Govind Narayan Sharma
             </p>
           </div>
 
@@ -41,7 +41,7 @@ export default function AboutCouple() {
           {/* Groom */}
           <div className="person-card">
             <div className="person-icon groom-icon">🌺</div>
-            <h3 className="person-hindi">हृदयांश शुभम</h3>
+            <h3 className="person-hindi">Shubham Suthwal</h3>
             <p className="person-name-en">Shubham Suthwal</p>
             <div className="person-divider" />
             <p className="person-parents">
