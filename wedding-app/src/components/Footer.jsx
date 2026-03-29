@@ -1,20 +1,5 @@
 import './Footer.css';
 
-const WHATSAPP = 'https://wa.me/919414709224';
-
-function share() {
-  if (navigator.share) {
-    navigator.share({
-      title: 'Kritika & Shubham – Wedding | 25 April 2026',
-      text: 'You are cordially invited! Mangalam Palace, Jaipur.',
-      url: window.location.href,
-    }).catch(() => {});
-  } else {
-    navigator.clipboard?.writeText(window.location.href);
-    alert('Link copied to clipboard!');
-  }
-}
-
 export default function Footer() {
   return (
     <footer id="footer" className="footer">
@@ -34,15 +19,6 @@ export default function Footer() {
           <p className="host-name">Shri Shivnarayan, Rajnarayan, Riddhishankar Sharma</p>
           <p className="host-addr">67/78, RHB, Pratap Nagar, Sanganer, Jaipur – 302033</p>
           <p className="host-mob">📞 +91-9414709224 &nbsp;|&nbsp; +91-9414666981</p>
-        </div>
-
-        <div className="footer-actions">
-          <a className="btn btn-gold" href={WHATSAPP} target="_blank" rel="noopener noreferrer">
-            💬 WhatsApp RSVP
-          </a>
-          <button className="btn btn-maroon" onClick={share}>
-            🔗 Share Invitation
-          </button>
         </div>
 
         <div className="footer-copyright">
